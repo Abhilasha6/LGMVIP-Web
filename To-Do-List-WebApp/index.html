@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+        <header>
+            <h1>To Do List</h1>
+            <div class="new-task">
+                <input type="text" placeholder="Add Your Tasks Here!" class="add-task">
+                <input type="submit" value="Add Task" class="submit-task">
+            </div>
+        </header>
+        
+        <div class="container">
+            <h2>CURRENT TASKS-</h2>
+            <div class="tasks">
+                <div class="task-box">
+                    <div class="content">
+                        <input type="checkbox" class="checkbox">
+                        <input type="text" class="task" value="New Task 1">
+                    </div>
+                    <div class="actions">
+                        <button class="edit">EDIT</button>
+                        <button class="delete">DELETE</button>
+                    </div>
+                </div>
+
+                <div class="task-box">
+                    <div class="content">
+                        <input type="checkbox" class="checkbox">
+                        <input type="text" class="task" value="New Task 2">
+                    </div>
+                    <div class="actions">
+                        <button class="edit">EDIT</button>
+                        <button class="delete">DELETE</button>
+                    </div>
+                </div>
+
+                <div class="task-box">
+                    <div class="content">
+                        <input type="checkbox" class="checkbox">
+                        <input type="text" class="task" value="New Task 3">
+                    </div>
+                    <div class="actions">
+                        <button class="edit">EDIT</button>
+                        <button class="delete">DELETE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
