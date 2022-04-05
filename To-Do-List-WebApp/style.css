@@ -1,3 +1,92 @@
+*{
+    background-color: pink;
+    box-sizing: border-box;
+}
 body{
-    
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+}
+header h1{
+    font-size: 2.5em;
+    font-family:cursive;
+    color: purple;
+}
+input, button{
+    border: none;
+    outline: none;
+    background: none;
+}
+header .new-task{
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+}
+header .new-task .add-task{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 2.5em;
+    padding: 15px;
+}
+header .new-task .add-task:hover{
+    color: white;
+}
+header .submit-task{
+    font-size: 1.5em;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+.container{
+    /* background-color: palevioletred; */
+    border-radius: 10px;
+    width: 100%;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container h2{
+    /* background-color: palevioletred; */
+    color: purple;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+.container .tasks .task-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.container .tasks .task-box .content{
+    display: flex;
+    align-items: center;
+    background-color: palevioletred;
+}
+.container .tasks .task-box .content .checkbox{
+   margin-right: 10px;
+}
+.container .tasks .task-box .content .task{
+    color: purple;
+    display: block;
+    font-family: cursive;
+    width: 100%;
+}
+.container .tasks .task-box .actions{
+    display: flex;
+    background-color: palevioletred;
+}
+.container .tasks .task-box .actions button{
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    margin-left: 10px;
+}
+.container .tasks .task-box .actions button:hover{
+    color: white;
 }
