@@ -11,18 +11,18 @@
         <header>
             <h1>To Do List</h1>
             <div class="new-task">
-                <input type="text" placeholder="Add Your Tasks Here!" class="add-task">
-                <input type="submit" value="Add Task" class="submit-task">
+                <input type="text" placeholder="Add Your Tasks Here!" class="add-task" id="taskInput">
+                <input type="submit" value="Add Task" class="submit-task" id="addTodo">
             </div>
         </header>
         
         <div class="container">
             <h2>CURRENT TASKS-</h2>
-            <div class="tasks">
+            <div class="tasks" id="taskContainer">
                 <div class="task-box">
                     <div class="content">
                         <input type="checkbox" class="checkbox">
-                        <input type="text" class="task" value="Read novel" readonly>
+                        <input type="text" class="task" value="task" readonly>
                     </div>
                     <div class="actions">
                         <button class="edit">EDIT</button>
@@ -30,28 +30,8 @@
                     </div>
                 </div>
 
-                <div class="task-box">
-                    <div class="content">
-                        <input type="checkbox" class="checkbox">
-                        <input type="text" class="task" value="Buy earphones" readonly>
-                    </div>
-                    <div class="actions">
-                        <button class="edit">EDIT</button>
-                        <button class="delete">DELETE</button>
-                    </div>
-                </div>
-
-                <div class="task-box">
-                    <div class="content">
-                        <input type="checkbox" class="checkbox">
-                        <input type="text" class="task" value="Collect letters" readonly>
-                    </div>
-                    <div class="actions">
-                        <button class="edit">EDIT</button>
-                        <button class="delete">DELETE</button>
-                    </div>
-                </div>
             </div>
         </div>
+    <script src="./work.js"></script>
 </body>
 </html>
