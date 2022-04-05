@@ -1,14 +1,20 @@
 *{
-    background-color: pink;
+    /* background-color: pink; */
     box-sizing: border-box;
+    margin: 0;
 }
 body{
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    display: flexbox;
+    display: flexbox; */
     width: 100%;
     max-width: 800px;
     height: 800px;
+    background: url(https://free4kwallpapers.com/uploads/originals/2019/06/04/nature-flower-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding-top: 50px;
 }
 header h1{
     font-size: 2.5em;
@@ -29,16 +35,17 @@ header .new-task .add-task{
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    font-size: 2.5em;
+    color: purple;
+    font-size: 2em;
     padding: 15px;
 }
-header .new-task .add-task:hover{
+header .new-task .submit-task:hover{
     color: white;
 }
 header .submit-task{
     font-size: 1.5em;
     margin-left: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: palevioletred;
     border-radius: 10px;
 }
